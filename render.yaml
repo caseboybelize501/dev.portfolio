@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: dev-portfolio
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
